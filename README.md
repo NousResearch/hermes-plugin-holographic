@@ -1,4 +1,4 @@
-> **Not maintained by Nous Research — looking for a maintainer.** This is a standalone copy of the `holographic` memory provider that still ships inside Hermes Agent under `plugins/memory/holographic/`. Nous Research does not maintain memory providers, so this repo gets no fixes or releases from Nous and is not listed in the Hermes plugin catalog. Hermes users need do nothing: the bundled provider keeps working. Anyone who wants to own it: see [HANDOFF.md](HANDOFF.md).
+> **Unmaintained — looking for an owner.** Hermes Agent removes its bundled `holographic` memory provider from core on **October 15, 2026**. This repo is a standalone copy of that provider, kept by Nous Research only so someone can take it over: Nous does not maintain it, publish fixes for it, or list it in the Hermes plugin catalog. Anyone who wants to own it: open an issue here and we'll help with the handoff (repo transfer or fork, plus the catalog entry that lets `hermes update` move existing users onto your plugin). See [HANDOFF.md](HANDOFF.md).
 
 # Holographic Memory Provider
 

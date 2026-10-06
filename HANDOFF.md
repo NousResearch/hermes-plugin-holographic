@@ -1,6 +1,6 @@
 # Maintenance notes — hermes-plugin-holographic
 
-**Status: unmaintained, looking for an owner.** Nous Research does not maintain memory providers. This
+**Status: unmaintained, looking for an owner.** The bundled copy leaves Hermes core on **October 15, 2026**. Nous Research does not maintain memory providers. This
 repository is a standalone copy of the `holographic` memory provider that ships inside `NousResearch/hermes-agent`
 under `plugins/memory/holographic/`, prepared so someone else can take it over. It is **not** listed in the
 Hermes plugin catalog and Nous publishes no further fixes or releases here. The last sync with core is
@@ -17,9 +17,10 @@ catalog plugin of the same name for users who have `memory.provider: holographic
 
 ## Install (as a user)
 
-Nothing to do: Hermes Agent still bundles this provider (`hermes memory setup`, or
-`memory.provider: holographic` in config.yaml). To try this standalone copy instead, `hermes plugins install
-NousResearch/hermes-plugin-holographic --ref 9ea1cf9b9eab4d35881a5e49343276e9f2eaf015` (tag `v0.1.1`); the bundled copy wins on name while it exists.
+Until October 15, 2026 Hermes Agent still bundles this provider (`hermes memory setup`, or
+`memory.provider: holographic` in config.yaml). After that, unless a new owner has listed it in the catalog, install this
+unmaintained copy by hand: `hermes plugins install NousResearch/hermes-plugin-holographic --ref 9ea1cf9b9eab4d35881a5e49343276e9f2eaf015` (tag `v0.1.1`).
+Same provider name, config and data, so nothing else changes.
 
 ## Keeping it in sync with core
 
